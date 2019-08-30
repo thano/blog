@@ -1,7 +1,7 @@
 ---
 template: page
 title: About me
-slug: pages/about
+slug: /about
 draft: true
 ---
 Passionate about digital marketing is what would mostly describe me.
