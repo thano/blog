@@ -2,7 +2,7 @@
 template: page
 title: About me
 slug: about
-draft: true
+draft: false
 ---
 Passionate about digital marketing is what would mostly describe me.
 
