@@ -9,6 +9,7 @@
     "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public",
     "clean": "rimraf .cache public",
     "flow": "flow",
+    "format": "prettier --write src/**/*.{js,jsx}",
     "lint:js": "eslint --cache --ext .js,.jsx .",
     "lint:scss": "stylelint \"src/**/*.scss\"",
     "lint": "concurrently \"yarn run lint:js\" \"yarn run lint:scss\" \"yarn flow\"",
